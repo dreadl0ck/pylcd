@@ -31,3 +31,4 @@ while True:
             time.sleep(0.1)
     except KeyboardInterrupt:
         lcd.GPIO.cleanup()
+        exit(0)
